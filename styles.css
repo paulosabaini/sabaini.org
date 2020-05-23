@@ -1,0 +1,109 @@
+body {
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightgreen;
+}
+
+/* selected link */
+a:active {
+    color: lime;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header nav a:first-child {
+    margin-left: -10%;
+    margin-right: 10%;
+}
+
+main {
+    margin-top: 100px;
+}
+
+/* Individual pages styles */
+
+.home {
+    text-align: center;
+}
+
+.home img {
+    border-radius: 50%;
+}
+
+.about {
+    text-align: center;
+}
+
+.about img {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    text-align: justify;
+    margin: 4%;
+}
+
+.blog {
+    text-align: center;
+}
+
+.projects h1 {
+    text-align: center;
+}
+
+.projects ul {
+    margin: 4%;
+}
+
+.projects ul p {
+    margin: 1px 0;
+    text-align: justify;    
+}
+
+.projects ul h2 {
+    font-size: 18px;
+}
+
+.blog-post h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: .05em
+}
+
+.blog-post .content{
+    color: #333;
+    font-size: 16px;
+    line-height: 1.25em;
+    padding: 0 0 1em 0;
+    text-align: justify;
+    letter-spacing: .03em;
+    margin: 4%;
+}
+
+.blog-post .content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
