@@ -29,11 +29,6 @@ header {
     margin-bottom: 25px;
 }
 
-header nav a:first-child {
-    margin-left: -10%;
-    margin-right: 10%;
-}
-
 main {
     margin-top: 100px;
 }
@@ -44,26 +39,23 @@ main {
     text-align: center;
 }
 
-.home img:first-child {
-    border-radius: 50%;
-}
-
 .about {
     text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .about img {
     margin-top: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
 }
 
 .about p {
     text-align: justify;
-    margin: 4%;
 }
 
-.blog {
-    text-align: center;
+.about ul {
+    text-align: justify;
 }
 
 .projects h1 {
@@ -81,6 +73,10 @@ main {
 
 .projects ul h2 {
     font-size: 18px;
+}
+
+.blog {
+    text-align: center;
 }
 
 .blog-post h1 {
