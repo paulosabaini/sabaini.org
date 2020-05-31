@@ -44,7 +44,7 @@ main {
     text-align: center;
 }
 
-.home img {
+.home img:first-child {
     border-radius: 50%;
 }
 
